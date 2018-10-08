@@ -40,7 +40,7 @@ describe('index.js', function () {
     });
   });
 
-  describe('driverNamesWithRevenueOver()', function () {
+  describe('()', function () {
     it('returns an array of all matching drivers names as string', function () {
       expect(driverNamesWithRevenueOver(drivers, 199)).to.eql([ 'Sally', 'Annette' ]);
     });
